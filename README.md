@@ -1,7 +1,8 @@
-# Take Home Exame for Genie (Candidate: TerrierLover)
-
 # Demo
 
+https://user-images.githubusercontent.com/68787800/166133625-d2464a44-e950-4138-bdc4-a970e28de9ea.mp4
+
+https://user-images.githubusercontent.com/68787800/166133640-dea5e617-1045-40f7-bf3e-8935a78143be.mp4
 
 [Sample page](https://terrier-lover.github.io/Genie_Take_Home_Exam_Sample/)
 
