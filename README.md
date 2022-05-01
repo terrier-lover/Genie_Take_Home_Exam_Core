@@ -6,6 +6,14 @@ https://user-images.githubusercontent.com/68787800/166133640-dea5e617-1045-40f7-
 
 [Sample page](https://terrier-lover.github.io/Genie_Take_Home_Exam_Sample/)
 
+For reference, here are address of the notable NFT projects
+- Cyberpunk
+  - 0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb
+- Bored Ape
+  - 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d
+- Meebits
+  - 0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7
+
 # How to install
 `npm start`
 
