@@ -1,47 +1,19 @@
-# Getting Started with Create React App
+# Take Home Exame for Genie (Candidate: TerrierLover)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
 
-## Available Scripts
 
-In the project directory, you can run:
+[Sample page](https://terrier-lover.github.io/Genie_Take_Home_Exam_Sample/)
 
-### `npm start`
+# How to install
+`npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Genie_Take_Home_Exam_Core
+# Notes
+- Requirements
+  - Use SWR for data fetching (https://swr.vercel.app/docs/getting-started ) and React as the front end framework
+  - Get data from POST https://v2.api.genie.xyz/assets
+  - Add infinite scroll, loading 25 NFTs at a time
+- Specs
+  - It only supports **contract address** search
+  - **contract address** can be non-checksummed version (0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d) or checksummed version (0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D). It also accept address without ``0x`` prefix (bc4ca0eda7647a8ab7c2061c2e118a18a936f13d)
+ 
